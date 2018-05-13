@@ -88,3 +88,6 @@ sudo npm install -g prettier nodemon
 sudo npm install -g react-native-cli create-react-app
 ```
 Alright. That's all for now. Will definitely add something more....
+
+# 6. Install qPDFView
+``` sudo apt-get install -y qpdfview```
