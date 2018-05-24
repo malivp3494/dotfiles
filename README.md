@@ -38,11 +38,17 @@ sudo apt-get install numix-gtk-theme numix-icon-theme-circle
 ```
 git clone https://github.com/keeferrourke/capitaine-cursors.git
 cd capitaine-cursors
+sudo cp -pr dist/ /usr/share/icons/capitaine-cursors
+```
+<br>if you want to build from source, do this.(Usually not needed)
+```
+git clone https://github.com/keeferrourke/capitaine-cursors.git
+cd capitaine-cursors
 sudo apt-get install inkscape
 ./build.sh
-cd dist
-sudo cp -r * /usr/share/icons
+sudo cp -pr dist/ /usr/share/icons/capitaine-cursors
 ```
+
 <br>Now change icons and cursor from Unity Tweak Tool. 
 
 ## 4. Install zsh
@@ -91,3 +97,4 @@ Alright. That's all for now. Will definitely add something more....
 
 ## 6. Install qPDFView
 ``` sudo apt-get install -y qpdfview```
+<br>To change default pdf reader, Right click any pdf file and open properties. Go to 'Open With' tab, select qpdfview and click on Set as Default. 
