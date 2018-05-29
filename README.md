@@ -72,6 +72,9 @@ and then you change your shell to zsh
 and then restart
 
     sudo shutdown -r 0
+If you want to use change default to bash, then simply do
+    ```sudo chsh -s /bin/bash```
+
 #### 4.2 Theme
 Change the terminal theme to ```solarized dark``` and set the agnoster theme as follows:
 
@@ -83,10 +86,19 @@ sudo nano ~/.zshrc
 ## 5. Setup environment for React
 #### 5.1 NPM and NodeJS
 Refer [this](https://nodejs.org/en/download/package-manager/).
+Also, after this, you might need to change default npm global path, cause there are no write permissions for default npm global, due to which you need to use ```sudo npm install -g <package>```. 
+So, follow these steps to change default npm global packages directory - [Source](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
+```
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+export PATH=~/.npm-global/bin:$PATH
+source ~/.profile
+```
+
 #### 5.2 Important stuff
 ```
 sudo npm install -g yarn
-sudo npm install -g prettier nodemon
+sudo npm install -g prettier nodemon serve
 ```
 
 #### 5.3 React and React Native
@@ -98,3 +110,10 @@ Alright. That's all for now. Will definitely add something more....
 ## 6. Install qPDFView
 ``` sudo apt-get install -y qpdfview```
 <br>To change default pdf reader, Right click any pdf file and open properties. Go to 'Open With' tab, select qpdfview and click on Set as Default. 
+
+## 7. Install LAMP Stack
+probably won't use most of the time, but yeah, it's good to have it here. 
+Do this to install Apache2, MySQL and PHP
+```
+sudo apt install apache2 mysql-server php-pear php-fpm
+```
