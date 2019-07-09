@@ -117,3 +117,37 @@ Do this to install Apache2, MySQL and PHP
 ```
 sudo apt install apache2 mysql-server php-pear php-fpm
 ```
+
+## 8. Overclock External Monitor Refresh Rate
+Refered [this](https://www.reddit.com/r/linux_gaming/comments/608k5d/overclocking_monitor/df4dvbp?utm_source=share&utm_medium=web2x)
+
+```cvt 1920 1080 65```
+
+This gives you a modeline similar to 
+
+```Modeline "1920x1080_65.00"  188.00  1920 2048 2248 2576  1080 1083 1088 1124 -hsync +vsync```
+
+which you can either insert into XOrg.conf, or use straight with xrandr.
+
+```xrandr --newmode <paste everything except the Modeline word>```
+
+Now get the output name from the list by doing 
+
+```xrandr --listmonitors```
+
+which will give you the output similar to 
+
+```
+0: +*HDMI-1 1920/527x1080/296+0+0  HDMI-1
+1: +eDP-1 1366/344x768/193+1920+0  eDP-1
+```
+Thus, for me output name will be `HDMI-1`.
+
+Finally run the following commands 
+
+```
+xrandr --addmode HDMI-1 "1920x1080_65.00"
+xrandr --output HDMI-1 --mode "1920x1080_65.00"
+
+```
+
