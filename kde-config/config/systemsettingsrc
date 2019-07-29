@@ -1,0 +1,24 @@
+[DownloadDialog Settings]
+Height 1080=509
+Height 768=512
+Width 1360=700
+Width 1366=700
+Width 1920=700
+
+[KFileDialog Settings]
+Recent Files[$e]=7041724-jump-roof-skyscraper.jpg,file:$HOME/.startup/start.sh,file:$HOME/Pictures/walls/cold-2557518_1920.jpg,file:$HOME/Pictures/walls/7041724-jump-roof-skyscraper.jpg
+Recent URLs[$e]=file:$HOME/Pictures/walls/,file:$HOME/Pictures/,file:$HOME/.startup/
+
+[MainWindow]
+Height 1080=672
+Height 768=672
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABPwAAAKgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1360=640
+Width 1366=1276
+Width 1920=1276
+
+[Open-with settings]
+CompletionMode=1
+History=

@@ -1,0 +1,23 @@
+[1]
+Active=1
+Sessions=1
+
+[Number]
+NumberOfSessions=1
+NumberOfWindows=1
+
+[Session1]
+Encoding=UTF-8
+LocalTab=%d : %n
+Profile[$e]=$HOME/.local/share/konsole/toxic.profile
+RemoteTab=(%u) %H
+SessionGuid={2f464410-b1a7-4834-a8bc-5a14f3088848}
+WorkingDir[$e]=$HOME
+
+[WindowProperties1]
+ClassName=Konsole::MainWindow
+Height 768=767
+MenuBar=Disabled
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAAAtIAAAL/AAAABAAAAAQAAAAIAAAACPwAAAAA
+Width 1360=722

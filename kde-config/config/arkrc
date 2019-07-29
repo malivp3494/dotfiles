@@ -1,0 +1,34 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/pro/temp/fonts/,/media/toxicdesire/0B6B16DF0B6B16DF/Softwares/c-evil/,$HOME/Android/react-native-debugger/,/
+Height 768=512
+Width 1366=910
+
+[Extraction]
+openDestinationFolderAfterExtraction=true
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME
+Recent URLs[$e]=baloosearch:/?json=%7B%22dayFilter%22: 0\\, %22monthFilter%22: 0\\, %22yearFilter%22: 0\\, %22type%22: [ %22Image%22]%7D,file:$HOME/Android/react-native-debugger/,file:///media/toxicdesire/0B6B16DF0B6B16DF/Softwares/c-evil/,file:$HOME/pro/temp/fonts/
+
+[MainWindow]
+Height 768=480
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAG6AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+Width 1360=640
+Width 1366=640
+splitterSizes=426,213
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/ilovepdf_jpg-to-pdf.zip
+File2[$e]=$HOME/Downloads/duo.zip
+Name1[$e]=ilovepdf_jpg-to-pdf.zip
+Name2[$e]=duo.zip
+
+[Viewer]
+Height 768=182
+State=AAAA/wAAAAD9AAAAAAAABVAAAAKfAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1360=309
+Window-Maximized 768x1360=true

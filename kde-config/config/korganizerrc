@@ -1,0 +1,88 @@
+[Calendar]
+Default Calendar=-1
+
+[CollectionTreeView]
+Expansion=
+HorizontalScroll=0
+VerticalScroll=0
+
+[General]
+CalendarFilters=
+Current Filter=
+Current View=Month
+Range Mode=5
+
+[GlobalCollectionSelection]
+Current=x-1
+Selection=c4,c10
+
+[GlobalCollectionView]
+Expansion=
+HorizontalScroll=0
+VerticalScroll=0
+
+[IncidenceDialog]
+Size=556,578
+
+[KOrganizer Geometry]
+Separator1=152,807
+Separator2=0,0,985,0
+
+[KPimPrintPreviewDialog]
+Size=800,600
+
+[ListView Layout]
+ViewState=\x00\x00\x00ˇ\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02î\x00\x00\x00\x04\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dˇˇˇˇ\x00\x00\x00Å\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x01H\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00{\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00u\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\\\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03Ë\x00\x00\x00\x00\\
+
+[MainWindow]
+Height 1080=1023
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA8AAAAPZAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAQAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAJABrAG8AcgBnAGEAbgBpAHoAZQByAF8AdABvAG8AbABiAGEAcgEAAALI/////wAAAAAAAAAAAAAAIABzAGMAaABlAGQAdQBsAGUAXwB0AG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAAAAAAcAGYAaQBsAHQAZQByAF8AdABvAG8AbABiAGEAcgAAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+Width 1920=960
+Window-Maximized 768x1360=true
+
+[Migratekde4]
+Version=1
+
+[Settings]
+DateNavigatorVisible=false
+EventViewerVisible=true
+ResourceViewVisible=false
+TodoViewVisible=false
+
+[Sidebar Todo View]
+ColumnOrder=0,1,2,3,4,5,6,7,8
+ColumnVisibility=true,false,false,false,true,true,false,false,false
+ColumnWidths=85,0,0,0,88,83,0,0,0
+SortAscending=1
+SortColumn=0
+
+[Timescale]
+Timescale Timezones=
+
+[Todo View]
+ColumnOrder=0,1,2,3,4,5,6,7,8
+ColumnVisibility=true,false,true,true,true,true,true,false,false
+ColumnWidths=1477,0,71,85,88,83,100,0,0
+SortAscending=1
+SortColumn=0
+
+[TodoTreeViewState]
+Current=x-1
+Expansion=
+HorizontalScroll=0
+Selection=
+VerticalScroll=0
+
+[TodoTreeViewStateS]
+Current=x-1
+Expansion=
+HorizontalScroll=0
+Selection=
+VerticalScroll=0
+
+[Views]
+Separator AgendaView=152,783
+ShownDatesCount=7

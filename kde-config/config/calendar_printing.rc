@@ -1,0 +1,99 @@
+Orientation=1
+
+[Journalprint]
+JournalsInRange=false
+
+[Print day]
+End time=2019,6,12,20,0,0
+Exclude confidential=true
+Exclude private=true
+Exclude time=false
+FromDate=2019,6,9,8,4,24
+Include all events=false
+Include description=false
+Include todos=false
+Note Lines=false
+Print type=1
+PrintFooter=true
+Single line limit=false
+Start time=2019,6,12,8,0,0
+ToDate=2019,6,15,8,4,24
+UseColors=true
+
+[Print incidence]
+FromDate=2019,6,9,8,4,23
+Note Lines=false
+PrintFooter=true
+Show Options=false
+Show Subitems and Notes=false
+ToDate=2019,6,15,8,4,23
+Use Attachments=false
+Use Attendees=false
+UseColors=true
+
+[Print journal]
+FromDate=2019,6,9,8,4,24
+PrintFooter=true
+ToDate=2019,6,15,8,4,24
+UseColors=true
+
+[Print month]
+Exclude confidential=true
+Exclude private=true
+FromDate=2019,6,1,8,4,24
+Include description=false
+Include todos=false
+Note Lines=false
+Print daily incidences=true
+Print week numbers=true
+Print weekly incidences=true
+PrintFooter=true
+Single line limit=false
+ToDate=2019,6,1,8,4,24
+UseColors=true
+
+[Print to-dos]
+Connect subtodos=true
+Exclude confidential=true
+Exclude private=true
+FromDate=2019,6,12,8,4,24
+Include description=true
+Include due date=true
+Include percentage completed=true
+Include priority=true
+Page title=To-do list
+Print type=0
+PrintFooter=true
+Sort direction=0
+Sort field=0
+Strike out completed summaries=true
+ToDate=2019,6,12,8,4,24
+UseColors=true
+
+[Print week]
+End time=2019,6,12,20,0,0
+Exclude Time=false
+Exclude confidential=true
+Exclude private=true
+FromDate=2019,6,9,8,4,24
+Include Description=false
+Include todos=false
+Note Lines=false
+Print type=0
+PrintFooter=true
+Single line limit=false
+Start time=2019,6,12,8,0,0
+ToDate=2019,6,15,8,4,24
+UseColors=true
+
+[Print year]
+FromDate=2019,6,9,8,4,24
+PrintFooter=true
+ToDate=2019,6,15,8,4,24
+UseColors=true
+
+[Yearprint]
+Pages=1
+ShowHolidaysAs=1
+ShowSubDayEventsAs=2
+Year=2019

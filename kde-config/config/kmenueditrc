@@ -1,0 +1,12 @@
+[General]
+SplitterSizes=285,354
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/.3T/robo-3t/1.2.1/cache/image.png,file:$HOME/.local/robomongo-icon.png
+Recent URLs[$e]=file:$HOME/.local/
+
+[MainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAG6AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Window-Maximized 768x1360=true

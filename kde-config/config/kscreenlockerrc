@@ -1,0 +1,8 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Greeter]
+Theme=Harmony
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///home/toxicdesire/packages/wallpapers/Northern Lights 4K.jpg

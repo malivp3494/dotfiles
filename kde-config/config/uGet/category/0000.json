@@ -1,0 +1,1741 @@
+{
+	"data": {
+		"relation": {
+			"group": 0,
+			"task": {
+				"priority": 1
+			}
+		},
+		"category": {
+			"hosts": [
+				".edu",
+				".idv"
+			],
+			"schemes": [
+				"ftps",
+				"magnet"
+			],
+			"file-exts": [
+				"torrent",
+				"metalink"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"common": {
+			"name": "New 0",
+			"folder": "\/home\/toxicdesire",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 36665361,
+					"total": 36665361,
+					"elapsed": 8,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545810213,
+					"completed-time": 1545810250,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "robo3t-1.2.1-linux-x86_64-3e50a65.tar.gz",
+					"uri": "https:\/\/download.robomongo.org\/1.2.1\/linux\/robo3t-1.2.1-linux-x86_64-3e50a65.tar.gz",
+					"file": "robo3t-1.2.1-linux-x86_64-3e50a65.tar.gz",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/robo3t-1.2.1-linux-x86_64-3e50a65.tar.gz",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 47860,
+					"total": 47860,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545482422,
+					"completed-time": 1545482424,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1545482423
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/2DF6E5E8.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "trophy.png.0",
+					"uri": "https:\/\/cdn.dribbble.com\/users\/255\/screenshots\/4851986\/dribbble_shot.png",
+					"file": "trophy.png.0",
+					"folder": "\/home\/toxicdesire\/pro\/web\/award_assets",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/pro\/web\/award_assets\/trophy.png.0",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 19178,
+					"total": 19178,
+					"elapsed": 8,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545402351,
+					"completed-time": 1545402359,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1545402359
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/github.com\/Genymobile\/scrcpy\/blob\/master\/BUILD.md",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "scrcpy-server-v1.5.jar",
+					"uri": "https:\/\/github-production-release-asset-2e65be.s3.amazonaws.com\/111583593\/eb5fb600-e65f-11e8-84bf-b78e81355d3e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20181221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20181221T142532Z&X-Amz-Expires=300&X-Amz-Signature=3220062cb21a948054349f7d37eb2cb5602f141a403d6ba5be958480c33f6dc3&X-Amz-SignedHeaders=host&actor_id=15379131&response-content-disposition=attachment%3B%20filename%3Dscrcpy-server-v1.5.jar&response-content-type=application%2Foctet-stream",
+					"file": "scrcpy-server-v1.5.jar",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/scrcpy-server-v1.5.jar",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 45915730,
+					"total": 45915730,
+					"elapsed": 312,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545385126,
+					"completed-time": 1545385438,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1545385129
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/code.visualstudio.com\/docs\/?dv=linux64_deb",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "code_1.30.1-1545156774_amd64.deb",
+					"uri": "https:\/\/az764295.vo.msecnd.net\/stable\/dea8705087adb1b5e5ae1d9123278e178656186a\/code_1.30.1-1545156774_amd64.deb",
+					"file": "code_1.30.1-1545156774_amd64.deb",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/code_1.30.1-1545156774_amd64.deb",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 677784,
+					"total": 677784,
+					"elapsed": 7,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545189945,
+					"completed-time": 1545189952,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1545189946
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/fonts.google.com\/specimen\/Merriweather?selection.family=Merriweather:300,300i,400,400i,700,700i,900,900i",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/195C1078.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "graphql.png",
+					"uri": "https:\/\/cdn-images-1.medium.com\/max\/2000\/1*PBnThNh1zzpCJq_70ExyRA.png",
+					"file": "graphql.png",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/graphql.png",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 191477,
+					"total": 191477,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545189932,
+					"completed-time": 1545189935,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1545189933
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/fonts.google.com\/specimen\/Merriweather?selection.family=Merriweather:300,300i,400,400i,700,700i,900,900i",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/335E208D.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "stylus.png",
+					"uri": "https:\/\/cdn-images-1.medium.com\/max\/2000\/1*KzGNbC0CdMdUQjF_8LWy6g.png",
+					"file": "stylus.png",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/stylus.png",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 207258,
+					"total": 207258,
+					"elapsed": 4,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545189920,
+					"completed-time": 1545189924,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1545189921
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/fonts.google.com\/specimen\/Merriweather?selection.family=Merriweather:300,300i,400,400i,700,700i,900,900i",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/5F242D03.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "sass.png",
+					"uri": "https:\/\/cdn-images-1.medium.com\/max\/2000\/1*OlBKGGkX-lYD4Hv_3jzq0A.png",
+					"file": "sass.png",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/sass.png",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 143116,
+					"total": 143116,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545189908,
+					"completed-time": 1545189911,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1545189909
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/fonts.google.com\/specimen\/Merriweather?selection.family=Merriweather:300,300i,400,400i,700,700i,900,900i",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/66DBA407.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "flexbox-css.png",
+					"uri": "https:\/\/cdn-images-1.medium.com\/max\/2000\/1*q8xJa81twW6J-U_URHOJvQ.png",
+					"file": "flexbox-css.png",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/flexbox-css.png",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 169344,
+					"total": 169344,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545189889,
+					"completed-time": 1545189891,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1545189890
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/fonts.google.com\/specimen\/Merriweather?selection.family=Merriweather:300,300i,400,400i,700,700i,900,900i",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/23231AAD.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "angular4.png",
+					"uri": "https:\/\/cdn-images-1.medium.com\/max\/2000\/1*tx7-kHpoRsiEyp9ch3yMhw.png",
+					"file": "angular4.png",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/angular4.png",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 230572,
+					"total": 230572,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545189873,
+					"completed-time": 1545189876,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1545189874
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/fonts.google.com\/specimen\/Merriweather?selection.family=Merriweather:300,300i,400,400i,700,700i,900,900i",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/733239EE.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "vuex.png",
+					"uri": "https:\/\/cdn-images-1.medium.com\/max\/2000\/1*M-UIS7PPmvh_HuZVTqarzA.png",
+					"file": "vuex.png",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/vuex.png",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 575321,
+					"total": 575321,
+					"elapsed": 7,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545189858,
+					"completed-time": 1545189865,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1545189859
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/fonts.google.com\/specimen\/Merriweather?selection.family=Merriweather:300,300i,400,400i,700,700i,900,900i",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/158127A0.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "vue.png",
+					"uri": "https:\/\/cdn-images-1.medium.com\/max\/2000\/1*xKmyDitGEXGg1J9FBpbqHw.png",
+					"file": "vue.png",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/vue.png",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 868566,
+					"total": 868566,
+					"elapsed": 11,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545189845,
+					"completed-time": 1545189856,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1545189846
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/fonts.google.com\/specimen\/Merriweather?selection.family=Merriweather:300,300i,400,400i,700,700i,900,900i",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/2EF0A3EA.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "redux.png",
+					"uri": "https:\/\/cdn-images-1.medium.com\/max\/2000\/1*KJQ-XK2yK-903OXHCRQpLw.png",
+					"file": "redux.png",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/redux.png",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 361746,
+					"total": 361746,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545189821,
+					"completed-time": 1545189825,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1545189822
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/fonts.google.com\/specimen\/Merriweather?selection.family=Merriweather:300,300i,400,400i,700,700i,900,900i",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/FC2FEAC.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "react.png",
+					"uri": "https:\/\/cdn-images-1.medium.com\/max\/2000\/1*VhtpckI6V0tckQa3uM9MbA.png",
+					"file": "react.png",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/react.png",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 273253,
+					"total": 273253,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545189807,
+					"completed-time": 1545189810,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1545189807
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/fonts.google.com\/specimen\/Merriweather?selection.family=Merriweather:300,300i,400,400i,700,700i,900,900i",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/43D2BC09.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "regex.png",
+					"uri": "https:\/\/cdn-images-1.medium.com\/max\/2000\/1*jHRyyzwj9z11ouDkY9dK9Q.png",
+					"file": "regex.png",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/regex.png",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 1737876,
+					"total": 1737876,
+					"elapsed": 16,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545189778,
+					"completed-time": 1545189794,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1545189779
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/fonts.google.com\/specimen\/Merriweather?selection.family=Merriweather:300,300i,400,400i,700,700i,900,900i",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/2C4263E0.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "javascript.png",
+					"uri": "https:\/\/cdn-images-1.medium.com\/max\/2000\/1*sqkshvsmr7hN4Ab2A7GJzg.png",
+					"file": "javascript.png",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/javascript.png",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 192264,
+					"total": 192264,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545189722,
+					"completed-time": 1545189725,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1545189723
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/fonts.google.com\/specimen\/Merriweather?selection.family=Merriweather:300,300i,400,400i,700,700i,900,900i",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/125B7183.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Javascript-ES2015.png",
+					"uri": "https:\/\/cdn-images-1.medium.com\/max\/2000\/1*l90SMm_aR9UD8m9QDu3kKA.png",
+					"file": "Javascript-ES2015.png",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/Javascript-ES2015.png",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 644158,
+					"total": 644158,
+					"elapsed": 12,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1545118041,
+					"completed-time": 1545118053,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1545118044
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/fonts.google.com\/specimen\/Merriweather?selection.family=Merriweather:300,300i,400,400i,700,700i,900,900i",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/61F490A2.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Merriweather.zip",
+					"uri": "https:\/\/fonts.google.com\/download?family=Merriweather",
+					"file": "Merriweather.zip",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/Merriweather.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 56430897,
+					"total": 56430897,
+					"elapsed": 20,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1544513223,
+					"completed-time": 1544513298,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1544513280
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.onlinevideoconverter.com\/success",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/67D4E710.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Hard Trap Mix 2018 =ĥ Motivation Music.mp3",
+					"uri": "https:\/\/sv84.onlinevideoconverter.com\/download?file=a0e4d3h7g6c2e4e4",
+					"file": "Hard Trap Mix 2018 =ĥ Motivation Music.mp3",
+					"folder": "\/home\/toxicdesire\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 1,
+					"max-connections": 4,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/Downloads\/Hard Trap Mix 2018 =ĥ Motivation Music.mp3",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 181953444,
+					"total": 181953444,
+					"elapsed": 292,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1544511322,
+					"completed-time": 1544511615,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1544511329
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.onlinevideoconverter.com\/success",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/7DF26215.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Best Female Vocal Dubstep Mix 2017  Melodic Dubstep.mp3",
+					"uri": "https:\/\/sv74.onlinevideoconverter.com\/download?file=b1e4d3h7j9h7a0e4",
+					"file": "Best Female Vocal Dubstep Mix 2017  Melodic Dubstep.mp3",
+					"folder": "\/home\/toxicdesire\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 5,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/Best Female Vocal Dubstep Mix 2017  Melodic Dubstep.mp3",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 78580016,
+					"total": 78580016,
+					"elapsed": 141,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1544500136,
+					"completed-time": 1544500277,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1544500138
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/ytmp3.cc\/",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/678B4C94.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Female Vocal Gaming Music Mix 2019 EDM, Trap, DnB, Electro House, Dubstep.mp3",
+					"uri": "https:\/\/coc.oeaa.cc\/c681a42a481d7cb7313807a02d0eeba5\/cNtZAbq2Ig4",
+					"file": "Female Vocal Gaming Music Mix 2019 EDM, Trap, DnB, Electro House, Dubstep.mp3",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 5,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/Female Vocal Gaming Music Mix 2019 EDM, Trap, DnB, Electro House, Dubstep.mp3",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 63975756,
+					"total": 63975756,
+					"elapsed": 507,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1544415788,
+					"completed-time": 1544416295,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1544415789
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.gitkraken.com\/download\/linux-deb",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/32F1896F.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "gitkraken-amd64.deb",
+					"uri": "https:\/\/release.axocdn.com\/linux\/gitkraken-amd64.deb",
+					"file": "gitkraken-amd64.deb",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/gitkraken-amd64.deb",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 6843966,
+					"total": 6843966,
+					"elapsed": 63,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1544335984,
+					"completed-time": 1544336047,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1544335986
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/developer.android.com\/studio\/releases\/platform-tools",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "platform-tools-latest-linux.zip",
+					"uri": "https:\/\/dl.google.com\/android\/repository\/platform-tools-latest-linux.zip",
+					"file": "platform-tools-latest-linux.zip",
+					"folder": "\/home\/toxicdesire\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 5,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/Downloads\/platform-tools-latest-linux.zip",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 154582459,
+					"total": 154582459,
+					"elapsed": 783,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1544333214,
+					"completed-time": 1544333997,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1544333215
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/developer.android.com\/studio\/",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "sdk-tools-linux-4333796.zip",
+					"uri": "https:\/\/dl.google.com\/android\/repository\/sdk-tools-linux-4333796.zip",
+					"file": "sdk-tools-linux-4333796.zip",
+					"folder": "\/home\/toxicdesire\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 5,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/Downloads\/sdk-tools-linux-4333796.zip",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 389978,
+					"total": 389978,
+					"elapsed": 7,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1544253653,
+					"completed-time": 1544253661,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1544253659
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.artstation.com\/artwork\/JEbym",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/64BE82DC.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "massimo-di-leo-volto.jpg",
+					"uri": "https:\/\/cdnb.artstation.com\/p\/assets\/images\/images\/001\/650\/059\/large\/massimo-di-leo-volto.jpg?1450148843&dl=1",
+					"file": "massimo-di-leo-volto.jpg",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/massimo-di-leo-volto.jpg",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 46148600,
+					"total": 46148600,
+					"elapsed": 5,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1544251395,
+					"completed-time": 1544251484,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/github.com\/prisma\/graphql-playground\/releases",
+					"cookie-file": "\/home\/toxicdesire\/.config\/uGet\/attachment\/18E92200.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "graphql-playground-electron_1.8.4_amd64.deb",
+					"uri": "https:\/\/github.com\/prisma\/graphql-playground\/releases\/download\/v1.8.4\/graphql-playground-electron_1.8.4_amd64.deb",
+					"file": "graphql-playground-electron_1.8.4_amd64.deb",
+					"folder": "\/home\/toxicdesire",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 8,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/graphql-playground-electron_1.8.4_amd64.deb",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"data": {
+				"relation": {
+					"group": 72,
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 15695164,
+					"total": 15695164,
+					"elapsed": 228,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1544249680,
+					"completed-time": 1544249908,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1544249681
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.mongodb.com\/",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "mongodb-org-server_4.0.4_amd64.deb",
+					"uri": "https:\/\/repo.mongodb.org\/apt\/ubuntu\/dists\/bionic\/mongodb-org\/4.0\/multiverse\/binary-amd64\/mongodb-org-server_4.0.4_amd64.deb",
+					"file": "mongodb-org-server_4.0.4_amd64.deb",
+					"folder": "\/home\/toxicdesire\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 3,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"collection": [
+						{
+							"path": "\/home\/toxicdesire\/Downloads\/mongodb-org-server_4.0.4_amd64.deb",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+

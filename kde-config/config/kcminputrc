@@ -1,0 +1,8 @@
+[Mouse]
+Acceleration=3.000000000000001
+AccelerationProfile=Adaptive
+MouseButtonMapping=RightHanded
+ReverseScrollPolarity=false
+Threshold=4
+cursorSize=24
+cursorTheme=Breeze_Snow

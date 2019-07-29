@@ -1,0 +1,56 @@
+[Devices][/org/freedesktop/UDisks2/block_devices/loop0]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=Loop Device
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda1]
+Icon=drive-harddisk
+LastNameSeen=Recovery
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda2]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=EFI system partition
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda4]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=Basic data partition
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda5]
+Icon=drive-harddisk
+LastNameSeen=844.0 MiB Hard Drive
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda6]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=Basic data partition
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda7]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=Basic data partition
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda8]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=120.8 GiB Hard Drive
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sdb1]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=INFECTED
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sdb2]
+Icon=drive-removable-media-usb
+LastNameSeen=Kubuntu 18.04.1 LTS amd64
+LastSeenMounted=false

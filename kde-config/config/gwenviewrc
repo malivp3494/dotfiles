@@ -1,0 +1,43 @@
+[General]
+SideBarPage=operations
+StatusBarIsVisible=false
+
+[MainWindow]
+Height 1080=1021
+Height 768=739
+State=AAAA/wAAAAD9AAAAAAAABPgAAAKRAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1360=1360
+Width 1366=1920
+Width 1920=1920
+
+[Recent Files]
+File1[$e]=$HOME/Pictures/Screenshot_20190612_082005.png
+File10[$e]=$HOME/fate local/readings/light-colour-background-images-hd-p-13.jpg
+File2[$e]=$HOME/Downloads/photo.jpg
+File3[$e]=$HOME/Downloads/New Doc 2019-06-14 11.10.40_1.jpg
+File4[$e]=$HOME/Downloads/New Doc 2019-06-14 11.08.28_1.jpg
+File5[$e]=$HOME/Pictures/walls/ufo-3400065_1920.jpg
+File6[$e]=$HOME/Pictures/Screenshot_20190617_211331.png
+File7[$e]=$HOME/Pictures/Screenshot_20190617_212205.png
+File8[$e]=$HOME/fate local/Books/GATE Books.png
+File9[$e]=$HOME/fate local/readings/one.jpg
+Name1[$e]=Screenshot_20190612_082005.png
+Name10[$e]=light-colour-background-images-hd-p-13.jpg
+Name2[$e]=photo.jpg
+Name3[$e]=New Doc 2019-06-14 11.10.40_1.jpg
+Name4[$e]=New Doc 2019-06-14 11.08.28_1.jpg
+Name5[$e]=ufo-3400065_1920.jpg
+Name6[$e]=Screenshot_20190617_211331.png
+Name7[$e]=Screenshot_20190617_212205.png
+Name8[$e]=GATE Books.png
+Name9[$e]=one.jpg
+
+[SideBar-BrowseMode]
+IsVisible=true
+
+[SideBar-FullScreenMode]
+IsVisible=false
+
+[SideBar-ViewMode]
+IsVisible=false

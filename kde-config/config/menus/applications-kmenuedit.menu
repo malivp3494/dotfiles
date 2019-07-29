@@ -1,0 +1,19 @@
+<!DOCTYPE Menu PUBLIC '-//freedesktop//DTD Menu 1.0//EN' 'http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd'>
+<Menu>
+ <Menu>
+  <Name>Development</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>Robo 3T.desktop</Filename>
+   <Merge type="menus"/>
+   <Menuname>Translation</Menuname>
+   <Menuname>Web Development</Menuname>
+   <Filename>github-desktop.desktop</Filename>
+   <Filename>graphql-playground-electron.desktop</Filename>
+   <Filename>code.desktop</Filename>
+  </Layout>
+  <Include>
+   <Filename>Robo 3T.desktop</Filename>
+  </Include>
+ </Menu>
+</Menu>

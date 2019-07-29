@@ -1,0 +1,5 @@
+[EmbedSettings]
+embed-audio/mpeg=false
+embed-inode/directory=false
+embed-video/webm=false
+embed-video/x-matroska=false

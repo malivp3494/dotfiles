@@ -1,0 +1,18 @@
+[Added Associations]
+application/octet-stream=org.kde.kate.desktop;
+audio/mpeg=audacious.desktop;
+inode/directory=org.kde.dolphin.desktop;code.desktop;github-desktop.desktop;
+video/webm=vlc.desktop;
+video/x-matroska=vlc.desktop;
+
+[Default Applications]
+audio/mpeg=audacious.desktop;
+inode/directory=org.kde.dolphin.desktop;
+text/html=firefox.desktop
+video/webm=vlc.desktop;
+video/x-matroska=vlc.desktop;
+x-scheme-handler/graphql-playground=graphql-playground-electron.desktop
+x-scheme-handler/http=google-chrome.desktop;
+x-scheme-handler/https=google-chrome.desktop;
+x-scheme-handler/x-github-client=GitHub Desktop.desktop
+x-scheme-handler/x-github-desktop-auth=GitHub Desktop.desktop

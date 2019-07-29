@@ -1,0 +1,43 @@
+[Desktop Entry]
+FullScreen=false
+shouldShowMenuBarComingFromFullScreen=true
+shouldShowToolBarComingFromFullScreen=false
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Downloads/New Folder/vaish-cet-admit-card.pdf,file:$HOME/Downloads/New Folder/vaish-cet-admit-card.pdf
+Recent URLs[$e]=file:$HOME/Downloads/New Folder/
+
+[MainWindow]
+Height 1080=672
+Height 768=712
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAQdAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1360=904
+Width 1366=683
+Width 1920=1276
+Window-Maximized 720x1280=true
+Window-Maximized 768x1360=true
+Window-Maximized 768x1366=true
+
+[Recent Files]
+File1[$e]=$HOME/fate local/readings/Turing_Paper_1936.pdf
+File10[$e]=$HOME/fate local/Gate Overflow Book/Vol. 3 - CO & Architecture, DBMS, OS, Computer Networks .pdf
+File2[$e]=$HOME/fate local/Gate Overflow Book/Vol. 2 - Algorithms, Programming & DS, Compilers, Theory of Computation .pdf
+File3[$e]=$HOME/fate local/Books/An Introduction to Formal Languages and Automata, 5th Edition.pdf
+File4[$e]=$HOME/fate local/Gate Notes from Standard Books By Manu Thakur/Operating System.pdf
+File5[$e]=$HOME/fate local/Gate Notes from Standard Books By Manu Thakur/Theory of Computations.pdf
+File6[$e]=$HOME/fate local/Books/The C Programming Language - BRIAN W KERNIGHAN and DENNIS M. RITCHIE.pdf
+File7[$e]=$HOME/fate local/readings/groupsfields.pdf
+File8[$e]=$HOME/fate local/Books/Discrete Mathematics (7th Edition) Kenneth H. Rosen.pdf
+File9[$e]=$HOME/fate local/Books/operating-system-concepts-9th-edition.pdf
+Name1[$e]=Turing_Paper_1936.pdf
+Name10[$e]=Vol. 3 - CO & Architecture, DBMS, OS, Computer Networks .pdf
+Name2[$e]=Vol. 2 - Algorithms, Programming & DS, Compilers, Theory of Computation .pdf
+Name3[$e]=An Introduction to Formal Languages and Automata, 5th Edition.pdf
+Name4[$e]=Operating System.pdf
+Name5[$e]=Theory of Computations.pdf
+Name6[$e]=The C Programming Language - BRIAN W KERNIGHAN and DENNIS M. RITCHIE.pdf
+Name7[$e]=groupsfields.pdf
+Name8[$e]=Discrete Mathematics (7th Edition) Kenneth H. Rosen.pdf
+Name9[$e]=operating-system-concepts-9th-edition.pdf

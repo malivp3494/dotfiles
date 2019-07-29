@@ -1,0 +1,42 @@
+[Desktop Entry]
+DefaultProfile=toxic.profile
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+Config Revision=10
+Days Meta Infos=30
+Last Session=
+Modified Notification=false
+Recent File List Entry Count=10
+Restore Window Configuration=true
+Save Meta Infos=true
+Show Full Path in Title=false
+Show Menu Bar=true
+Show Status Bar=true
+Show Tab Bar=true
+Startup Session=manual
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/pro/see-shit/test.c,file:$HOME/pro/see-shit/test.c
+Recent URLs[$e]=file:$HOME/pro/see-shit/
+
+[MainWindow]
+Height 1080=1051
+Height 768=739
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPnAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1360=1360
+Width 1920=1920
+Window-Maximized 1080x1920=true
+Window-Maximized 768x1360=true
+Window-Maximized 768x1366=true
+
+[filetree]
+editShade=44,104,138
+listMode=false
+shadingEnabled=true
+showFullPathOnRoots=false
+sortRole=0
+viewShade=58,96,142
