@@ -21,12 +21,12 @@ filename='"~/Videos/%(title)s.%(ext)s"'
 if [ -z $audio ] || [ -z $video ]
 then
     echo "Downloading best quality Audio"
-    com="youtube-dl -f bestaudio $url --merge-output-format mp4 -o $filename"
+    com="youtube-dl -f bestaudio $url --merge-output-format mkv -o $filename"
     eval $com
     echo "Successfully downloaded to $HOME/Videos"
 else
     echo "Downloading Video"
-    com="youtube-dl -f $video+$audio $url --merge-output-format mp4 -o $filename"
+    com="youtube-dl -f $video+$audio $url --merge-output-format mkv -o $filename"
     eval $com
     echo "Successfully downloaded to $HOME/Videos"    
 fi

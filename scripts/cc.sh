@@ -4,7 +4,7 @@
 if [ $1 == 'f' ]
 then
 	echo "Compiling file only. To run, use argument r"
-	gcc -o $2 "$2.c"
+	gcc -o $2 "$2.c" -lm
 	echo "Done!"
 	echo ""
 	echo ""
