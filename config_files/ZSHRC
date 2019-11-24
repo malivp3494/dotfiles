@@ -15,7 +15,7 @@ export PATH=$ANDROID_HOME/build-tools/28.0.1:$PATH
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="avit"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -70,7 +70,7 @@ DISABLE_AUTO_UPDATE="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
+  git, zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -114,16 +114,27 @@ alias work="bash /home/toxicdesire/pro/scripts/work.sh"
 alias c="bash /home/toxicdesire/pro/scripts/cc.sh"
 alias editwork="nano /home/toxicdesire/pro/scripts/work.sh"
 # directories for faster cd.. lol
-export server="/home/toxicdesire/pro/web/awards-server/awards-server"
-export client="/home/toxicdesire/pro/web/awards"
-export blog="/home/toxicdesire/pro/blog"
+alias blog="cd /home/toxicdesire/pro/blog"
 alias cdc="cd /home/toxicdesire/pro/cshit"
 alias cdpy="cd /home/toxicdesire/pro/pyshit"
 alias wifi="watch -n1 iwconfig"
-alias yt="/home/toxicdesire/pro/scripts/youtube.sh"
+alias yt="python /home/toxicdesire/pro/scripts/youtube.py"
+alias vs="/home/toxicdesire/pro/scripts/cshit.sh"
+alias attempts="python3 /home/toxicdesire/pro/scripts/attempts.py $@"
+# best thing ever happened to me lol
+alias nano="micro"
+alias bat="acpi"
+alias sudo="sudo "
+alias g="python $HOME/pro/scripts/googler.py $@"
+alias gentree="$HOME/pro/scripts/tree-dot.sh"
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 if [[ $(ps --no-header -p $PPID -o comm | grep -Ev '^(yakuake|konsole)$' ) ]]; then
         for wid in $(xdotool search --pid $PPID); do
             xprop -f _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0 -id $wid; done
 fi
+
+DEFAULT_USER='toxicdesire'
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

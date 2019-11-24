@@ -4,7 +4,7 @@
 if [ $1 == 'f' ]
 then
 	echo "Compiling file only. To run, use argument r"
-	gcc -o $2 "$2.c" -lm
+	clang -o $2 "$2.c" -Weverything
 	echo "Done!"
 	echo ""
 	echo ""
@@ -13,10 +13,10 @@ elif [ $1 == 'r' ]
 then
 	./$2 "${@:3}"
 else
-	gcc -o $1 "$1.c"
+	clang -o $1 "$1.c" -Weverything
 	echo "Done!"
 	echo ""
-	echo ""
+	echo "----------- Output -----------"
 	./$1
 	rm -f $1
 fi
