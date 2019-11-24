@@ -127,6 +127,7 @@ alias bat="acpi"
 alias sudo="sudo "
 alias g="python $HOME/pro/scripts/googler.py $@"
 alias gentree="$HOME/pro/scripts/tree-dot.sh"
+alias ll="du -h | sort -h"
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 if [[ $(ps --no-header -p $PPID -o comm | grep -Ev '^(yakuake|konsole)$' ) ]]; then
