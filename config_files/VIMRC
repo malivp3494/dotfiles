@@ -7,20 +7,26 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdtree'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'tpope/vim-surround'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'dhruvasagar/vim-zoom'
+Plugin 'tpope/vim-commentary'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+
+"weird issue with konsole
 set guicursor=
+
+"line numbers and syntax
 set number
 syntax on
+
+
 colorscheme onedark
+
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
 "(see < http://sunaku.github.io/tmux-24bit-color.html#usage > for more information.)
 if (empty($TMUX))
@@ -32,3 +38,22 @@ if (empty($TMUX))
     set termguicolors
   endif
 endif
+
+"shortcuts
+nmap <c-s> :w<cr>
+imap <c-s> <esc>:w<cr>
+nmap <c-q> :q<cr>
+imap <c-q> <esc>:wq<cr>
+vmap <c-/> :gc
+imap <c-/> :gc
+map <C-n> :NERDTreeToggle<CR>
+
+" leave insert mode quickly
+  if ! has('gui_running')
+    set ttimeoutlen=10
+    augroup FastEscape
+      autocmd!
+      au InsertEnter * set timeoutlen=0
+      au InsertLeave * set timeoutlen=1000
+    augroup END
+  endif
