@@ -111,7 +111,6 @@ alias blog="code /home/toxicdesire/pro/blog"
 alias scr="scrcpy"
 alias kill="fuser -k $1/tcp"
 alias work="bash /home/toxicdesire/pro/scripts/work.sh"
-alias c="bash /home/toxicdesire/pro/scripts/cc.sh"
 alias editwork="nano /home/toxicdesire/pro/scripts/work.sh"
 # directories for faster cd.. lol
 alias blog="cd /home/toxicdesire/pro/blog"
@@ -131,6 +130,9 @@ alias ll="du -h | sort -h"
 alias v="nvim"
 alias argtest="python $HOME/pro/scripts/ar.py"
 alias tmux="tmux -u"
+alias c="python $HOME/pro/scripts/cc.py c $@"
+alias cpp="python $HOME/pro/scripts/cc.py cpp $@"
+
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 if [[ $(ps --no-header -p $PPID -o comm | grep -Ev '^(yakuake|konsole)$' ) ]]; then

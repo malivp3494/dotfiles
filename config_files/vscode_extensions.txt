@@ -17,6 +17,7 @@ naumovs.color-highlight
 patbenatar.advanced-new-file
 PKief.material-icon-theme
 Prisma.vscode-graphql
+ritwickdey.LiveServer
 rust-lang.rust
 sdras.night-owl
 Shan.code-settings-sync

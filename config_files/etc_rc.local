@@ -1,6 +1,4 @@
 #!/bin/sh -e
-echo "rc.local shit works" > "/home/toxicdesire/pro/wow.txt"
 sudo modprobe -r rtl8723be
 sudo modprobe rtl8723be ant_sel=1
-echo "end of rc.local" > "/home/toxicdesire/pro/wow1.txt"
 exit 0
