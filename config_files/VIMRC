@@ -1,3 +1,4 @@
+"Don't forget to map ctrl to caps lock -- hardwire!
 set nocompatible              " be iMproved, required
 filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -13,7 +14,9 @@ Plugin 'tpope/vim-surround'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'dhruvasagar/vim-zoom'
 Plugin 'tpope/vim-commentary'
-
+Plugin 'srcery-colors/srcery-vim'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'altercation/vim-colors-solarized'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -24,10 +27,9 @@ set guicursor=
 set number
 syntax on
 set linespace=4
+let g:srcery_italic = 1
 
-
-colorscheme onedark
-
+let g:airline_theme = "simple"
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
 "(see < http://sunaku.github.io/tmux-24bit-color.html#usage > for more information.)
 if (empty($TMUX))
@@ -44,6 +46,9 @@ endif
 
 nmap <c-s> :Autoformat<cr>:w<cr>
 imap <c-s> <esc>:Autoformat<cr>:w<cr>
+imap <c-j> <esc>
+vmap <c-j> <esc>
+nmap <c-j> <esc>
 nmap <c-q> :q<cr>
 imap <c-q> <esc>:Autoformat<cr>:wq<cr>
 vmap <c-/> :gc
