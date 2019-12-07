@@ -12,6 +12,8 @@ echo "etc_rc.local..."
 cat /etc/rc.local > etc_rc.local
 echo "etc_environment..."
 cat /etc/environment > etc_environment
+echo "konsole-colorschemes..."
+cp -r ~/.local/share/konsole ./konsole-colorschemes
 echo "apt_packages..."
 comm -23 <(apt-mark showmanual | sort -u) <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort -u) > apt_packages.txt
 echo "vscode_extensions..."
