@@ -1,5 +1,8 @@
 [Background]
 Color=0,43,54
+MaxRandomHue=0
+MaxRandomSaturation=0
+MaxRandomValue=0
 
 [BackgroundFaint]
 Color=0,43,54
@@ -14,25 +17,25 @@ Color=9,66,52
 Color=9,60,71
 
 [Color0Intense]
-Color=0,166,80
+Color=0,106,49
 
 [Color1]
-Color=220,50,47
+Color=168,83,185
 
 [Color1Faint]
-Color=220,50,47
+Color=198,89,75
 
 [Color1Intense]
 Color=203,75,22
 
 [Color2]
-Color=229,255,56
+Color=197,200,33
 
 [Color2Faint]
 Color=133,153,0
 
 [Color2Intense]
-Color=251,255,252
+Color=221,221,110
 
 [Color3]
 Color=181,137,0
@@ -41,16 +44,16 @@ Color=181,137,0
 Color=181,137,0
 
 [Color3Intense]
-Color=129,128,136
+Color=86,98,0
 
 [Color4]
-Color=38,139,210
+Color=148,147,128
 
 [Color4Faint]
 Color=38,139,210
 
 [Color4Intense]
-Color=255,85,255
+Color=208,69,208
 
 [Color5]
 Color=211,54,130
@@ -62,7 +65,7 @@ Color=211,54,130
 Color=196,21,88
 
 [Color6]
-Color=42,161,152
+Color=0,147,220
 
 [Color6Faint]
 Color=42,161,152
@@ -80,13 +83,13 @@ Color=238,232,213
 Color=253,246,227
 
 [Foreground]
-Color=0,255,64
+Color=0,188,47
 
 [ForegroundFaint]
-Color=0,191,70
+Color=87,176,120
 
 [ForegroundIntense]
-Color=0,255,51
+Color=0,185,37
 
 [General]
 Description=Solar Modified

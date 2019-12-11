@@ -17,6 +17,9 @@ Plugin 'tpope/vim-commentary'
 Plugin 'srcery-colors/srcery-vim'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'wincent/terminus'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -54,6 +57,8 @@ imap <c-q> <esc>:Autoformat<cr>:wq<cr>
 vmap <c-/> :gc
 imap <c-/> :gc
 map <C-n> :NERDTreeToggle<CR>
+imap <c-w> <esc> <c-w>
+
 
 " leave insert mode quickly
 if ! has('gui_running')
@@ -64,3 +69,4 @@ if ! has('gui_running')
 		au InsertLeave * set timeoutlen=1000
 	augroup END
 endif
+

@@ -17,6 +17,7 @@ com.github.johnfactotum.foliate
 curl
 discord
 dkms
+entr
 ffmpeg
 flex
 fonts-cmu

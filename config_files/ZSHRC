@@ -1,5 +1,5 @@
 if [ "$TMUX" = "" ]; then tmux -u; fi
-
+bindkey "^@" "clear-screen"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -71,7 +71,7 @@ DISABLE_AUTO_UPDATE="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git, zsh-autosuggestions
+git, zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -107,19 +107,19 @@ source /etc/environment
 alias python="python3"
 alias py="python3"
 alias pip="pip3"
-alias blog="code /home/toxicdesire/pro/blog"
+alias blog="code $PROJECTS/blog"
 alias scr="scrcpy"
 alias kill="fuser -k $1/tcp"
-alias work="bash /home/toxicdesire/pro/scripts/work.sh"
-alias editwork="nano /home/toxicdesire/pro/scripts/work.sh"
+alias work="bash $SCRIPTS/work.sh"
+alias editwork="nano $SCRIPTS/work.sh"
 # directories for faster cd.. lol
-alias blog="cd /home/toxicdesire/pro/blog"
-alias cdc="cd /home/toxicdesire/pro/cshit"
-alias cdpy="cd /home/toxicdesire/pro/pyshit"
+alias blog="cd $PROJECTS/blog"
+alias cdc="cd $PROJECTS/cshit"
+alias cdpy="cd $PROJECTS/pyshit"
 alias wifi="watch -n1 iwconfig"
-alias yt="python /home/toxicdesire/pro/scripts/youtube.py"
-alias vs="/home/toxicdesire/pro/scripts/cshit.sh"
-alias attempts="python3 /home/toxicdesire/pro/scripts/attempts.py $@"
+alias yt="python $SCRIPTS/youtube.py"
+alias vs="$SCRIPTS/cshit.sh"
+alias attempts="python3 $SCRIPTS/attempts.py $@"
 # best thing ever happened to me lol
 alias nano="micro"
 alias bat="acpi"
@@ -132,16 +132,16 @@ alias argtest="python $HOME/pro/scripts/ar.py"
 alias tmux="tmux -u"
 alias c="python $HOME/pro/scripts/cc.py c $@"
 alias cpp="python $HOME/pro/scripts/cc.py cpp $@"
-
+alias watch="watch "
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 if [[ $(ps --no-header -p $PPID -o comm | grep -Ev '^(yakuake|konsole)$' ) ]]; then
-        for wid in $(xdotool search --pid $PPID); do
-            xprop -f _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0 -id $wid; done
-fi
+	for wid in $(xdotool search --pid $PPID); do
+		xprop -f _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0 -id $wid; done
+	fi
 
-DEFAULT_USER='toxicdesire'
+	DEFAULT_USER='toxicdesire'
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+	# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+	[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 

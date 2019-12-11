@@ -1,8 +1,8 @@
 [Appearance]
 AntiAliasFonts=true
 BoldIntense=true
-ColorScheme=Solarized
-Font=Droid Sans Mono Slashed for Powerline,10,-1,5,50,0,0,0,0,0,Regular
+ColorScheme=solar-modified
+Font=Inconsolata for Powerline,11,-1,5,75,0,0,0,0,0,BoldForPowerline
 LineSpacing=1
 UseFontLineChararacters=true
 
