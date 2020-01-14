@@ -8,17 +8,13 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'chiel92/vim-autoformat'
-Plugin 'scrooloose/nerdtree'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'tpope/vim-surround'
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'dhruvasagar/vim-zoom'
-Plugin 'tpope/vim-commentary'
 Plugin 'srcery-colors/srcery-vim'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'wincent/terminus'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -28,45 +24,33 @@ set guicursor=
 
 "line numbers and syntax
 set number
+set relativenumber
+set rnu
+set termguicolors
+let g:solarized_termcolors=256
+colorscheme srcery
 syntax on
 set linespace=4
-let g:srcery_italic = 1
 
 let g:airline_theme = "simple"
-"Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
-"(see < http://sunaku.github.io/tmux-24bit-color.html#usage > for more information.)
-if (empty($TMUX))
-	if (has("nvim"))
-		"For Neovim 0.1.3 and 0.1.4 < https://github.com/neovim/neovim/pull/2198 >
-		let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-	endif
-	if (has("termguicolors"))
-		set termguicolors
-	endif
-endif
-
+let mapleader= " "
 "shortcuts
 
-nmap <c-s> :Autoformat<cr>:w<cr>
-imap <c-s> <esc>:Autoformat<cr>:w<cr>
+nmap <F8> :Autoformat <cr> :w <cr>
+imap <F8> <esc> :Autoformat <cr> :w <cr>
+nmap <c-s> :w<cr>
+imap <c-s> <esc>:wall<cr>
 imap <c-j> <esc>
 vmap <c-j> <esc>
 nmap <c-j> <esc>
 nmap <c-q> :q<cr>
 imap <c-q> <esc>:Autoformat<cr>:wq<cr>
-vmap <c-/> :gc
-imap <c-/> :gc
 map <C-n> :NERDTreeToggle<CR>
 imap <c-w> <esc> <c-w>
-
-
-" leave insert mode quickly
-if ! has('gui_running')
-	set ttimeoutlen=10
-	augroup FastEscape
-		autocmd!
-		au InsertEnter * set timeoutlen=0
-		au InsertLeave * set timeoutlen=1000
-	augroup END
-endif
-
+map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+map <leader>fs :w <CR> 
+map <leader>fq :wq <CR>
+map <leader>sr :source% <CR>
+map <leader>w <esc>ve
+map <leader>l <esc>VyPj

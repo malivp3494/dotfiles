@@ -2,15 +2,17 @@
 AntiAliasFonts=true
 BoldIntense=true
 ColorScheme=solar-modified
-Font=Inconsolata for Powerline,11,-1,5,75,0,0,0,0,0,BoldForPowerline
+Font=SauceCodePro Nerd Font Mono,11,-1,5,75,0,0,0,0,0,Bold
 LineSpacing=1
 UseFontLineChararacters=true
 
 [Cursor Options]
-CursorShape=1
-UseCustomCursorColor=false
+CursorShape=0
+CustomCursorColor=200,200,200
+UseCustomCursorColor=true
 
 [General]
+Environment=TERM=xterm-256color,COLORTERM=truecolor
 Name=toxic
 Parent=FALLBACK/
 TerminalColumns=90

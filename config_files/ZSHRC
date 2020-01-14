@@ -1,15 +1,23 @@
-if [ "$TMUX" = "" ]; then tmux -u; fi
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block, everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+if [ "$TMUX" = "" ]; then tmux -2u; fi
 bindkey "^@" "clear-screen"
-# If you come from bash you might have to change your $PATH.
+# If you come from bash you might have to change your $PATH
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/toxicdesire/.oh-my-zsh"
-
+source /etc/environment
 # Path for android sdk -- need this for react-native
 export ANDROID_HOME="/home/toxicdesire/Android/Sdk"
 export PATH=$ANDROID_HOME/tools:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
+export USRLIB=$USRLIB
 export PATH=$ANDROID_HOME/build-tools/28.0.1:$PATH
 
 # Set name of the theme to load --- if set to "random", it will
@@ -103,9 +111,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /etc/environment
 alias python="python3"
 alias py="python3"
+alias pc="python3 -i $SCRIPTS/imports.py"
 alias pip="pip3"
 alias blog="code $PROJECTS/blog"
 alias scr="scrcpy"
@@ -115,7 +123,7 @@ alias editwork="nano $SCRIPTS/work.sh"
 # directories for faster cd.. lol
 alias blog="cd $PROJECTS/blog"
 alias cdc="cd $PROJECTS/cshit"
-alias cdpy="cd $PROJECTS/pyshit"
+alias cdsc="cd $SCRIPTS"
 alias wifi="watch -n1 iwconfig"
 alias yt="python $SCRIPTS/youtube.py"
 alias vs="$SCRIPTS/cshit.sh"
@@ -127,9 +135,10 @@ alias sudo="sudo "
 alias g="python $HOME/pro/scripts/googler.py $@"
 alias gentree="$HOME/pro/scripts/tree-dot.sh"
 alias ll="du -h | sort -h"
-alias v="nvim"
+alias v="nvim "
+alias e="emacs . &"
 alias argtest="python $HOME/pro/scripts/ar.py"
-alias tmux="tmux -u"
+alias tmux="tmux -2u"
 alias c="python $HOME/pro/scripts/cc.py c $@"
 alias cpp="python $HOME/pro/scripts/cc.py cpp $@"
 alias watch="watch "
@@ -140,8 +149,7 @@ if [[ $(ps --no-header -p $PPID -o comm | grep -Ev '^(yakuake|konsole)$' ) ]]; t
 		xprop -f _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0 -id $wid; done
 	fi
 
-	DEFAULT_USER='toxicdesire'
+#	DEFAULT_USER='toxicdesire'
 
 	# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 	[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
