@@ -4,19 +4,19 @@
 if [ $1 == 'f' ]
 then
 	echo "Compiling file only. To run, use argument r"
-	clang -o $2 "$2.c" -Weverything
+	$command "$2" -Weverything
 	echo "Done!"
 	echo ""
 	echo ""
 
 elif [ $1 == 'r' ]
 then
-	./$2 "${@:3}"
+	./a.out "${@:3}" < in.txt
 else
-	clang -o $1 "$1.c" -Weverything
+	clang++ "$2" -Weverything
 	echo "Done!"
 	echo ""
 	echo "----------- Output -----------"
-	./$1
+	./a.out < in.txt
 	rm -f $1
 fi

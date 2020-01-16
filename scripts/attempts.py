@@ -19,10 +19,21 @@ if 'read' in sys.argv:
     if(len(dirs) == 1):
         print(f'1. {dirs[0]}')
     else:
+        '''
         while(i < len(dirs)-1):
             j = i+1
             print(f"{j}:{dirs[i]:<20} {j+1}:{dirs[i+1]:<20}")
             i += 2
+        if(i&1):
+            print(f'{i}:{dirs[i]:<20}')
+        '''
+        entries_per_row = 2
+        print("len is {}".format(len(dirs)))
+        for i, each in enumerate(dirs):
+            if(i%entries_per_row == 0):
+                print()
+            print(f"{i+1}:{dirs[i]:<20}", end="")
+        print()
     try:
         which = int(input('which one to read(id)> '))
         if(which < 1 or which > len(dirs)):
