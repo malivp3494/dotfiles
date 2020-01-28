@@ -161,5 +161,6 @@ function count-tokens(){
 	clang -Xpreprocessor -dump-tokens -fsyntax-only $1 &> tokens
 	echo "Tokens count: $(wc -l tokens)\n"
 	cat tokens
+	echo "Tokens count: $(wc -l tokens)\n"
 }
 
