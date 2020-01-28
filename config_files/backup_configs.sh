@@ -2,14 +2,15 @@
 default_dir="/home/toxicdesire/pro/dotfiles/config_files"
 mkdir -p "$default_dir"
 echo "backup configs to $default_dir"
-echo "ZSHRC..."
-cat ~/.zshrc > $default_dir/ZSHRC
-echo "VIMRC..."
-cat ~/.vimrc > $default_dir/VIMRC
-echo "TMUX.CONF..."
-cat ~/.tmux.conf > $default_dir/TMUX.CONF
-echo "REDSHIFT.CONF"
-cat ~/.config/redshift.conf > $default_dir/REDSHIFT.CONF
+echo "zsh, vim, tmux, redshift are symlinks now, no longer need to backup them"
+# echo "ZSHRC..."
+# cat ~/.zshrc > $default_dir/ZSHRC
+# echo "VIMRC..."
+# cat ~/.vimrc > $default_dir/VIMRC
+# echo "TMUX.CONF..."
+# cat ~/.tmux.conf > $default_dir/TMUX.CONF
+# echo "REDSHIFT.CONF"
+# cat ~/.config/redshift.conf > $default_dir/REDSHIFT.CONF
 echo "etc_rc.local..."
 cat /etc/rc.local > $default_dir/etc_rc.local
 echo "etc_environment..."

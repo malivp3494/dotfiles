@@ -28,7 +28,6 @@ codeblocks-wxcontrib-headers
 com.github.johnfactotum.foliate
 compat-libevent2-5
 curl
-discord
 dkms
 doxygen
 dvipng
@@ -68,6 +67,7 @@ libavcodec-dev
 libavformat-dev
 libavutil-dev
 libcodeblocks0
+libfreetype6-dev
 libgnome-keyring-common
 libgnome-keyring-dev
 libgtk2.0-dev
@@ -87,6 +87,7 @@ libwxsmithlib0-dev
 libx11-dev
 libxext-dev
 linux-headers-4.15.0-50-generic
+lldb
 make
 meson
 mongodb-org-server
