@@ -111,40 +111,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias python="python3"
-alias py="python3"
-alias pc="python3 -i $SCRIPTS/imports.py"
-alias pip="pip3"
-alias blog="code $PROJECTS/blog"
-alias scr="scrcpy"
-alias kill="fuser -k $1/tcp"
-alias work="bash $SCRIPTS/work.sh"
-alias editwork="nano $SCRIPTS/work.sh"
-# directories for faster cd.. lol
-alias blog="cd $PROJECTS/blog"
-alias cdc="cd $PROJECTS/cshit"
-alias cdsc="cd $SCRIPTS"
-alias wifi="watch -n1 iwconfig"
-alias yt="python $SCRIPTS/youtube.py"
-alias vs="$SCRIPTS/cshit.sh"
-alias attempts="python3 $SCRIPTS/attempts.py $@"
-# best thing ever happened to me lol
-alias nano="micro"
-alias bat="acpi"
-alias sudo="sudo "
-alias g="python $HOME/pro/scripts/googler.py $@"
-alias gentree="$HOME/pro/scripts/tree-dot.sh"
-alias ll="du -h | sort -h"
-alias v="nvim "
-alias e="emacs . &"
-alias argtest="python $HOME/pro/scripts/ar.py"
-alias tmux="tmux -2u"
-alias c="python $HOME/pro/scripts/cc.py c $@"
-alias ioff="sudo service NetworkManager stop"
-alias ion="sudo service NetworkManager start"
-alias cpp="python $HOME/pro/scripts/cc.py cpp $@"
-alias watch="watch "
-
+source ~/.aliasrc
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 if [[ $(ps --no-header -p $PPID -o comm | grep -Ev '^(yakuake|konsole)$' ) ]]; then
