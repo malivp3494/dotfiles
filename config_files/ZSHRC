@@ -159,8 +159,9 @@ DEFAULT_USER='toxicdesire'
 function count-tokens(){
 	echo "Filename: $1"
 	clang -Xpreprocessor -dump-tokens -fsyntax-only $1 &> tokens
-	echo "Tokens count: $(wc -l tokens)\n"
+	lines=$(cat tokens | wc -l)
 	cat tokens
-	echo "Tokens count: $(wc -l tokens)\n"
+	echo "ignoring EOF token for counting tokens"
+	echo "Tokens count: $((lines-1))\n"
 }
 
