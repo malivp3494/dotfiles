@@ -34,8 +34,9 @@ set linespace=4
 
 let g:airline_theme = "simple"
 let mapleader= " "
-"shortcuts
 
+"shortcuts
+inoremap kj <esc>
 nmap <F8> :Autoformat <cr> :w <cr>
 imap <F8> <esc> :Autoformat <cr> :w <cr>
 nmap <c-s> :w<cr>
