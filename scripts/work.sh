@@ -1,12 +1,13 @@
 #!/bin/bash
 
+dest="/home/toxicdesire/pro/web/gateq"
 if [ $1 == 'client' ]
 then
 	echo "Starting work environment for client..."
 	echo "Open vscode with [work editor]..."
-	# konsole -e "code /home/toxicdesire/pro/web/awards"
-	# echo "Opening Android screen mirror..."
-	# konsole --new-tab -e "scrcpy"
+	konsole -e "code $dest""
+	echo "Opening Android screen mirror..."
+	konsole --new-tab -e "scrcpy"
 elif [ $1 == 'server' ]
 then 
 	echo "Starting work environment for server..."
