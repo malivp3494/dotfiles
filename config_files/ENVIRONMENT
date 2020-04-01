@@ -1,4 +1,4 @@
-PATH="/opt/java/jdk1.8.0_171/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/toxicdesire/.npm-global/bin/:/opt/java/jdk1.8.0_171/bin:/home/toxicdesire/Android/Sdk/platform-tools:/home/toxicdesire/.cargo/bin:/snap/bin/:/opt/exercism:/opt/nvim/bin"
+PATH="$HOME/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/toxicdesire/.npm-global/bin/:/opt/java/jdk1.8.0_171/bin:/home/toxicdesire/Android/Sdk/platform-tools:/home/toxicdesire/.cargo/bin:/snap/bin/:/opt/exercism:/opt/nvim/bin"
 JAVA_HOME="/opt/java/jdk1.8.0_171"
 PROJECTS="$HOME/pro"
 SCRIPTS="$PROJECTS/scripts"
