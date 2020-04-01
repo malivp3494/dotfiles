@@ -38,3 +38,6 @@ echo "Setting up nvim..."
 rm ~/.config/nvim -rf
 ln -s $PWD/arch/nvim $HOME/.config/nvim
 
+echo "Setting up kitty..."
+rm ~/.config/kitty -rf
+ln -s $PWD/arch/kitty $HOME/.config/kitty
