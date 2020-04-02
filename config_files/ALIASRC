@@ -33,4 +33,5 @@ alias ioff="sudo service NetworkManager stop"
 alias ion="sudo service NetworkManager start"
 alias cpp="python $SCRIPTS/cc.py cpp $@"
 alias watch="watch "
-
+alias telegram="telegram-desktop > /dev/null 2>&1 &" 
+alias telegram2="telegram-desktop -many -workdir $HOME/pro/temp/telegram2 > /dev/null 2>&1 &"

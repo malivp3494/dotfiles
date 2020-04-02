@@ -3,4 +3,5 @@ JAVA_HOME="/opt/java/jdk1.8.0_171"
 PROJECTS="$HOME/pro"
 SCRIPTS="$PROJECTS/scripts"
 USRLIB="$HOME/.usrlib"
+EDITOR="nvim"
 
