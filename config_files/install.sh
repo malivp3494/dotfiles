@@ -20,8 +20,8 @@ rm ~/.environment
 ln -s $PWD/ENVIRONMENT $HOME/.environment
 
 echo "Setting up scripts..."
-rm ~/pro/scripts
-ln -s $PWD/../scripts $HOME/pro/scripts
+rm ~/pro/scripts -rf
+git clone https://github.com/toxdes/python-scripts.git ~/pro/scripts
 
 echo "Setting up i3..."
 mkdir -p $HOME/.config
