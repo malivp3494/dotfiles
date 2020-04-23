@@ -16,7 +16,11 @@ export USRLIB=$USRLIB
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="avit"
+ZSH_THEME="miloshadzic"
+# modify ~/.oh-my-zsh/themes/miloshadzic.zsh-theme 
+# replace PROMPT=... line with following ^-^ 
+# PROMPT="%{$fg[cyan]%}%1~%{$reset_color%}%{$fg[red]%}|%{$reset_color%}$(git_prompt_info)%{$fg[cyan]%} =>%{$reset_color%}"
+
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -109,7 +113,7 @@ source ~/.aliasrc
 source ~/.fehbg
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-DEFAULT_USER='phoebe'
+# DEFAULT_USER='phoebe'
 
 function count-tokens(){
 	echo "Filename: $1"
