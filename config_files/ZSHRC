@@ -110,7 +110,7 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.environment
 source ~/.aliasrc
-source ~/.fehbg
+# source ~/.fehbg
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # DEFAULT_USER='phoebe'
