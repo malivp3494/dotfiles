@@ -1,0 +1,7 @@
+PATH="$PATH:$HOME/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$HOME/.local/bin"
+JAVA_HOME="/opt/java/jdk1.8.0_171"
+PROJECTS="$HOME/pro"
+SCRIPTS="$PROJECTS/scripts"
+USRLIB="$HOME/.usrlib"
+EDITOR="nvim"
+
