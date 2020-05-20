@@ -6,7 +6,7 @@ alias blog="code $PROJECTS/blog"
 alias scr="scrcpy"
 alias kill="fuser -k $1/tcp"
 alias work="bash $SCRIPTS/work.sh"
-alias editwork="nano $SCRIPTS/work.sh"
+alias editwork="vim $SCRIPTS/work.sh"
 
 # directories for faster cd.. lol
 alias blog="cd $PROJECTS/blog"
