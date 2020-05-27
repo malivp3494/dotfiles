@@ -123,4 +123,4 @@ function count-tokens(){
 	echo "ignoring EOF token for counting tokens"
 	echo "Tokens count: $((lines-1))\n"
 }
-
+dual-screen
