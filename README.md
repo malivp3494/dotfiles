@@ -1,22 +1,13 @@
 # Things to do after fresh install (Self Reminder)
 
 <b>Edit:</b> I'm a grown up now, I use Arch.
-<<<<<<< HEAD
 
 <b>Edit 2:</b> I don't even know if I should be proud of it.
 
-Everything below this that I created to install the necessary packages required to be installed every time I do a fresh install of [**Ubuntu 18.04**](releases.ubuntu.com/18.04/) or whatever. Execute commands as follows.
+Everything below this that I created to install the necessary packages required to be installed every time I do a fresh install of [**Ubuntu 18.04**](releases.ubuntu.com/18.04/) or whatever.
 
 ## 1. Install RTL8723BE WiFi Drivers
 
-=======
-<b>Edit2:</b> I don't even know if I should be proud of it.
-
-Everything below this that I created to install the necessary packages required to be installed every time I do a fresh install of [**Ubuntu 18.04**](releases.ubuntu.com/18.04/) or whatever. Execute commands as follows.
-
-## 1. Install RTL8723BE WiFi Drivers
-
->>>>>>> 37c9ee898f590b95fb57fbc86d44954226bb13d0
 Arch contains this by default.
 
 Ubuntu somehow doesn't support wifi drivers for my `hp-ac-120tx` [Specifications](https://support.hp.com/in-en/document/c04779465).<br/>
@@ -34,7 +25,6 @@ Open Terminal and execute:
    That should turn your WiFi back on and you should get better wifi signal. However these settings are not permanent and step 5 & 6 need to be executed on every restart. so either add them in startup applications or to make them permanent use this: `echo "options rtl8723be ant_sel=2" | sudo tee /etc/modprobe.d/50-rtl8723be.conf`.
 
 ## 2. Setting up `git`
-<<<<<<< HEAD
 
 Generate a ssh key pair, so I don't have to type password everytime.
 [Stolen from here btw.](https://stackoverflow.com/questions/8588768/how-do-i-avoid-the-specification-of-the-username-and-password-at-every-git-push)
@@ -53,26 +43,6 @@ Generate a ssh key pair, so I don't have to type password everytime.
 
 ## 3. Install zsh
 
-=======
-
-Generate a ssh key pair, so I don't have to type password everytime.
-[Stolen from here btw.](https://stackoverflow.com/questions/8588768/how-do-i-avoid-the-specification-of-the-username-and-password-at-every-git-push)
-
-1. generate a ssh-key
-   ```sh
-   $ ssh-keygen -id rsa #generate a key
-   $ cat ~/.ssh/id_rsa.pub #copy contents
-   ```
-2. goto [ssh settings](https://github.com/settings/ssh)
-3. paste that copied thing there and add the machine.
-4. All origins for the repos must be as shown in example below.
-   ```sh
-   $ git remote set-url origin git+ssh://git@github.com/username/reponame.git
-   ```
-
-## 3. Install zsh
-
->>>>>>> 37c9ee898f590b95fb57fbc86d44954226bb13d0
 #### 3.1 Installation
 
 Prerequisites:
