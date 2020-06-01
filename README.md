@@ -31,7 +31,7 @@ Generate a ssh key pair, so I don't have to type password everytime.
 
 1. generate a ssh-key
    ```sh
-   $ ssh-keygen -id rsa #generate a key
+   $ ssh-keygen -t rsa #generate a key
    $ cat ~/.ssh/id_rsa.pub #copy contents
    ```
 2. goto [ssh settings](https://github.com/settings/ssh)
