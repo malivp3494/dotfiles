@@ -1,5 +1,5 @@
 #!/bin/bash
-default_dir="/home/toxicdesire/pro/dotfiles/config_files"
+default_dir="/home/toxicdesire/pro/dotfiles/config-files"
 mkdir -p "$default_dir"
 echo "backup configs to $default_dir"
 echo "zsh, vim, tmux, redshift are symlinks now, no longer need to backup them"

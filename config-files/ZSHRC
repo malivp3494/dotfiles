@@ -2,7 +2,6 @@
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block, everything else may go below.
 
-if [ "$TMUX" = "" ]; then tmux -2u; fi
 bindkey "^[[17~" "clear-screen"
 # If you come from bash you might have to change your $PATH
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
