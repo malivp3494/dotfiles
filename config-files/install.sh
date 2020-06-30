@@ -29,6 +29,11 @@ rm ~/.config/i3 -rf
 ln -s $PWD/arch/i3 $HOME/.config/i3
 
 
+echo "Setting up picom..."
+mkdir -p $HOME/.config
+rm ~/.config/picom -rf
+ln -s $PWD/arch/picom $HOME/.config/picom
+
 echo "Setting up polybar..."
 rm ~/.config/polybar -rf
 ln -s $PWD/arch/polybar $HOME/.config/polybar
