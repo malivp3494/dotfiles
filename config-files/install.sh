@@ -51,3 +51,7 @@ echo "Configuring Xmodmap..."
 rm ~/.Xmodmap
 ln -s $PWD/arch/Xmodmap $HOME/.Xmodmap
 
+echo "Configuring Redshift..."
+rm ~/.config/redshift.conf
+ln -s $PWD/REDSHIFT.CONF $HOME/.config/redshift.conf
+
