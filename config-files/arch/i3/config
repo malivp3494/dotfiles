@@ -15,7 +15,8 @@ set $mod Mod4
 # is used in the bar {} block below.
 font pango:monospace 8
 for_window [class=".*"] border pixel 1
-
+# fire up a scratchpad terminal
+exec --no-startup-id kitty -name __scratchpad
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
@@ -182,7 +183,6 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-
 set $mode_gaps Gaps: (o)uter, (i)nner, (h)orizontal, (v)ertical, (t)op, (r)ight, (b)ottom, (l)eft
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
 set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -303,6 +303,13 @@ mode "$mode_gaps_left" {
         bindsym Return mode "$mode_gaps"
         bindsym Escape mode "default"
 }
+
+#i3bar
+bar {
+	status_command i3status
+}
+bindsym $mod+minus bar mode toggle
+
 # dracula colors
 # class                 border  backgr. text    indicator child_border
 client.focused          #bd93f9 #ff79c6 #44475a #8be9fd   #6272a4
@@ -310,4 +317,14 @@ client.unfocused        #333333 #282a36 #ffffff #484e50   #5f676a
 client.focused_inactive #333333 #44475a #888888 #292d2e   #222222
 client.urgent           #2f343a #ff5555 #ffffff #900000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+
+# single terminal for scratchpad
+# https://www.reddit.com/r/i3wm/comments/424cth/putting_terminal_into_scratchpad_upon_startup/
+for_window [instance="__scratchpad"] move scratchpad
+
+# scratchpad
+bindsym $mod+Shift+m move scratchpad
+bindsym $mod+m scratchpad show
+
+# dmenu bindings
 

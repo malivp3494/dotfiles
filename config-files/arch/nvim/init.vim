@@ -1,3 +1,8 @@
+call plug#begin()
+Plug 'mhartington/oceanic-next'
+Plug 'junegunn/fzf.vim'
+call plug#end()
+
 set number
 set relativenumber
 set rnu
@@ -5,7 +10,7 @@ set termguicolors
 syntax on
 set linespace=4
 let mapleader= " "
-
+colorscheme OceanicNext
 "shortcuts
 inoremap kj <esc>
 nmap <F8> :Autoformat <cr> :w <cr>
@@ -24,3 +29,4 @@ map <leader>fq :wq <CR>
 map <leader>sr :source% <CR>
 map <leader>w <esc>ve
 map <leader>l <esc>VyPj
+map <leader>r <esc>:source ~/.config/nvim/init.vim <CR>
