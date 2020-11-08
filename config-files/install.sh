@@ -23,20 +23,20 @@ echo "Setting up scripts..."
 rm ~/pro/scripts -rf
 git clone https://github.com/toxdes/python-scripts.git ~/pro/scripts
 
-echo "Setting up i3..."
-mkdir -p $HOME/.config
-rm ~/.config/i3 -rf
-ln -s $PWD/arch/i3 $HOME/.config/i3
+# echo "Setting up i3..."
+# mkdir -p $HOME/.config
+# rm ~/.config/i3 -rf
+# ln -s $PWD/arch/i3 $HOME/.config/i3
 
 
-echo "Setting up picom..."
-mkdir -p $HOME/.config
-rm ~/.config/picom -rf
-ln -s $PWD/arch/picom $HOME/.config/picom
+# echo "Setting up picom..."
+# mkdir -p $HOME/.config
+# rm ~/.config/picom -rf
+# ln -s $PWD/arch/picom $HOME/.config/picom
 
-echo "Setting up polybar..."
-rm ~/.config/polybar -rf
-ln -s $PWD/arch/polybar $HOME/.config/polybar
+# echo "Setting up polybar..."
+# rm ~/.config/polybar -rf
+# ln -s $PWD/arch/polybar $HOME/.config/polybar
 
 
 echo "Setting up nvim..."
@@ -47,9 +47,9 @@ echo "Setting up kitty..."
 rm ~/.config/kitty -rf
 ln -s $PWD/arch/kitty $HOME/.config/kitty
 
-echo "Configuring Xmodmap..."
-rm ~/.Xmodmap
-ln -s $PWD/arch/Xmodmap $HOME/.Xmodmap
+# echo "Configuring Xmodmap..."
+# rm ~/.Xmodmap
+# ln -s $PWD/arch/Xmodmap $HOME/.Xmodmap
 
 echo "Configuring Redshift..."
 rm ~/.config/redshift.conf

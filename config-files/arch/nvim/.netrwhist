@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/toxdes/.config'
+let g:netrw_dirhist_3='/home/toxdes/.gateoverflow'
+let g:netrw_dirhist_2='/home/toxdes/pro/real/testiny/testiny-web'
+let g:netrw_dirhist_1='/home/toxdes/.npm'

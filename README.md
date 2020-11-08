@@ -141,4 +141,16 @@ $ xrandr --addmode HDMI-1 "1920x1080_65.00"
 $ xrandr --output HDMI-1 --mode "1920x1080_65.00"
 ```
 
+# Capslock as ctrl key (xfce)
+
+```sh
+ $ sudo vi /etc/default/keyboard
+```
+
+Find the line that starts with `XKBOPTIONS`, and add `ctrl:nocaps` to make Caps Lock an additional Control key.
+
+```sh
+$ sudo dpkg-reconfigure keyboard-configuration
+```
+
 Done :|

@@ -10,12 +10,15 @@ bindkey "^[[17~" "clear-screen"
 export ZSH="$HOME/.oh-my-zsh"
 source /etc/environment
 export USRLIB=$USRLIB
-
+fpath+=$HOME/.zsh/pure
+autoload -U promptinit; promptinit
+prompt pure
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="miloshadzic"
+# ZSH_THEME="miloshadzic"
+# ZSH_THEME="arrow"
 # modify ~/.oh-my-zsh/themes/miloshadzic.zsh-theme 
 # replace PROMPT=... line with following ^-^ 
 # PROMPT="%{$fg[cyan]%}%1~%{$reset_color%}%{$fg[red]%}|%{$reset_color%}$(git_prompt_info)%{$fg[cyan]%} =>%{$reset_color%}"
@@ -73,9 +76,7 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-	git, zsh-autosuggestions
-)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 # User configuration
@@ -84,7 +85,7 @@ source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
-
+export EDITOR="nvim"
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
@@ -106,7 +107,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
 source ~/.environment
 source ~/.aliasrc
 # source ~/.fehbg
@@ -122,4 +122,4 @@ function count-tokens(){
 	echo "ignoring EOF token for counting tokens"
 	echo "Tokens count: $((lines-1))\n"
 }
-dual-screen
+# dual-screen
