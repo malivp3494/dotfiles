@@ -1,5 +1,5 @@
-PATH="$PATH:$HOME/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$HOME/.local/bin:$HOME/pro/scripts/bash"
-JAVA_HOME="/usr/lib/jvm/java-8-jdk/bin"
+PATH="$PATH:$HOME/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$HOME/.local/bin:$HOME/pro/scripts/bash:$HOME/pro/thirdparty/jdk/bin"
+JAVA_HOME="$HOME/pro/thirdparty/jdk/bin"
 PROJECTS="$HOME/pro"
 SCRIPTS="$PROJECTS/scripts"
 USRLIB="$HOME/.usrlib"

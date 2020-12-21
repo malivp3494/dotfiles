@@ -18,6 +18,7 @@ alias vs="$SCRIPTS/cshit.sh"
 alias attempts="python3 $SCRIPTS/attempts.py $@"
 
 # best thing ever happened to me lol
+alias ls="exa --color=always"
 alias bat="acpi"
 alias sudo="sudo "
 alias g="python $SCRIPTS/googler.py $@"

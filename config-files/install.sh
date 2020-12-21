@@ -1,7 +1,7 @@
 #!/usr/bin/bash
-echo "Configuring zshrc..."
-rm ~/.zshrc
-ln -s $PWD/ZSHRC $HOME/.zshrc
+# echo "Configuring zshrc..."
+# rm ~/.zshrc
+# ln -s $PWD/ZSHRC $HOME/.zshrc
 
 echo "Configuring vimrc..."
 rm ~/.vimrc
@@ -15,9 +15,9 @@ echo "Setting up aliases..."
 rm ~/.aliasrc
 ln -s $PWD/ALIASRC $HOME/.aliasrc
 
-echo "Setting up environment variables..."
-rm ~/.environment
-ln -s $PWD/ENVIRONMENT $HOME/.environment
+# echo "Setting up environment variables..."
+# rm ~/.environment
+# ln -s $PWD/ENVIRONMENT $HOME/.environment
 
 echo "Setting up scripts..."
 rm ~/pro/scripts -rf
@@ -51,7 +51,7 @@ ln -s $PWD/arch/kitty $HOME/.config/kitty
 # rm ~/.Xmodmap
 # ln -s $PWD/arch/Xmodmap $HOME/.Xmodmap
 
-echo "Configuring Redshift..."
-rm ~/.config/redshift.conf
-ln -s $PWD/REDSHIFT.CONF $HOME/.config/redshift.conf
+# echo "Configuring Redshift..."
+# rm ~/.config/redshift.conf
+# ln -s $PWD/REDSHIFT.CONF $HOME/.config/redshift.conf
 
