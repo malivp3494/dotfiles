@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/ceres/pro/dotfiles/config-files/arch/i3'
+let g:netrw_dirhist_6='/home/ceres/pro/dotfiles/config-files'
+let g:netrw_dirhist_5='/home/ceres/pro/dotfiles'
 let g:netrw_dirhist_4='/home/toxdes/.config'
 let g:netrw_dirhist_3='/home/toxdes/.gateoverflow'
 let g:netrw_dirhist_2='/home/toxdes/pro/real/testiny/testiny-web'
