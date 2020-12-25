@@ -128,7 +128,6 @@ function count-tokens(){
 	echo "Tokens count: $((lines-1))\n"
 	rm tokens
 }
-# dual-screen
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

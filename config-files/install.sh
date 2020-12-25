@@ -55,3 +55,6 @@ ln -s $PWD/arch/kitty $HOME/.config/kitty
 # rm ~/.config/redshift.conf
 # ln -s $PWD/REDSHIFT.CONF $HOME/.config/redshift.conf
 
+echo "Configuring screenlayout..."
+rm ~/.screenlayout
+ln -s $PWD/arch/screenlayout $HOME/.screenlayout
