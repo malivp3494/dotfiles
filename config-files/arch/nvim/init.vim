@@ -1,6 +1,7 @@
 call plug#begin()
 Plug 'mhartington/oceanic-next'
 Plug 'junegunn/fzf.vim'
+Plug 'vim-utils/vim-man'
 call plug#end()
 
 set number
