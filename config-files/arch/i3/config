@@ -51,9 +51,9 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec kitty
 bindsym $mod+G exec firefox-developer-edition
-bindsym $mod+T exec thunar
+bindsym $mod+T exec thunar ~/fate/books
 bindsym $mod+Y exec ~/.config/kitty/calc.sh
-bindsym $mod+C exec discord
+bindsym $mod+C exec rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
 # kill focused window
 bindsym $mod+Shift+q kill
 
