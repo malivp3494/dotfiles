@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =9
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/ceres/pro/dotfiles/config-files/arch/nvim'
+let g:netrw_dirhist_0='/home/ceres/.config'
 let g:netrw_dirhist_9='/home/ceres/pro/dotfiles/config-files/arch/kitty/kitty-themes/themes'
 let g:netrw_dirhist_8='/home/ceres/pro/dotfiles/config-files/arch/kitty/kitty-themes'
 let g:netrw_dirhist_7='/home/ceres/pro/dotfiles/config-files/arch/i3'
@@ -8,4 +10,3 @@ let g:netrw_dirhist_5='/home/ceres/pro/dotfiles'
 let g:netrw_dirhist_4='/home/toxdes/.config'
 let g:netrw_dirhist_3='/home/toxdes/.gateoverflow'
 let g:netrw_dirhist_2='/home/toxdes/pro/real/testiny/testiny-web'
-let g:netrw_dirhist_1='/home/toxdes/.npm'

@@ -15,9 +15,7 @@ set $mod Mod4
 # is used in the bar {} block below.
 font pango:Hack 8
 for_window [class=".*"] border pixel 1
-for_window [class="mycalc"] floating enable resize set 420 160
-# fire up a scratchpad terminal
-exec --no-startup-id kitty -name __scratchpad
+for_window [class="float"] floating enable resize set 420 160
 # exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -30,11 +28,9 @@ exec --no-startup-id kitty -name __scratchpad
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id picom 
+exec greenclip daemon
 # Multi-screen screenshots with scrot
-bindsym --release Print exec scrot 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/Pictures/screenshots && mv $f ~/Pictures/screenshots && xclip -selection clipboard -t image/png -i ~/Pictures/screenshots/`ls -1 -t ~/Pictures/screenshots | head -1`' # All screens
-
-# OSX-like area selection screenshots
-bindsym --release Shift+Print exec scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/Pictures/screenshots && mv $f ~/Pictures/screenshots && xclip -selection clipboard -t image/png -i ~/Pictures/screenshots/`ls -1 -t ~/Pictures/screenshots | head -1`' # Area selection
+bindsym --release Print exec "escrotum -s 'screenshot_%M%S%T.png' -e 'mv $f ~/Pictures/screenshots && xclip -selection clipboard -t image/png -i ~/Pictures/`ls -1 -t ~/Pictures/screenshots | head -1`'"
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 
@@ -48,7 +44,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-# start a terminal
+# launch various programs
 bindsym $mod+Return exec kitty
 bindsym $mod+G exec firefox-developer-edition
 bindsym $mod+T exec thunar ~/fate/books
@@ -158,7 +154,6 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
-exec --no-startup-id dual-screen
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -185,6 +180,8 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+gaps inner 10
 set $mode_gaps Gaps: (o)uter, (i)nner, (h)orizontal, (v)ertical, (t)op, (r)ight, (b)ottom, (l)eft
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
 set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -323,8 +320,10 @@ client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 # single terminal for scratchpad
 # https://www.reddit.com/r/i3wm/comments/424cth/putting_terminal_into_scratchpad_upon_startup/
 for_window [instance="__scratchpad"] move scratchpad
-
+# fire up a scratchpad terminal
+exec --no-startup-id kitty -name __scratchpad
 # scratchpad
+
 bindsym $mod+Shift+m move scratchpad
 bindsym $mod+m scratchpad show
 
