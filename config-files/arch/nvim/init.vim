@@ -15,6 +15,7 @@ call plug#begin()
 "themes
 Plug 'mhartington/oceanic-next'
 Plug 'sainnhe/everforest'
+Plug 'sainnhe/edge'
 Plug 'itchyny/lightline.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -40,6 +41,7 @@ Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tpope/vim-fugitive'
 Plug 'chemzqm/vim-jsx-improve'
+Plug 'pantharshit00/vim-prisma'
 call plug#end()
 
 
@@ -76,7 +78,7 @@ set colorcolumn=80
 " Give more space for displaying messages
 set cmdheight=2
 
-colorscheme everforest 
+colorscheme edge 
 " Respect transparency
 hi Normal guibg=none ctermbg=none
 " hi NonText guibg=NONE ctermbg=NONE
@@ -107,7 +109,7 @@ nnoremap <leader>y "+y
 vnoremap <leader>y "+y
 nnoremap <leader>Y gg"+yG
 nnoremap <leader>ee :e ~/.config/nvim/init.vim<CR>
-nnoremap <C-l> ggVdd
+nnoremap <C-l> ggVGd
 nnoremap <leader>d "_d
 vnoremap <leader>d "_d
 
@@ -176,6 +178,9 @@ endfunction
 nnoremap <C-b> :NERDTreeToggle<CR>
 let g:NERDTreeWinPos = "right"
 
+" CP shortcuts
+nmap <F1> :<C-U>!g++ -std=c++17 -DLOCAL %:r.cpp -o %:r<CR>
+nmap <F2> :<C-U>!kitty --hold $PWD/%:r <CR>
 lua << EOF
 
 local actions = require('telescope.actions')
@@ -257,3 +262,17 @@ nnoremap <leader>vh :lua require('telescope.builtin').help_tags()<CR>
 nnoremap <leader>vrc :lua require('telescope').search_dotfiles()<CR>
 nnoremap <leader>va :lua require('telescope').anime_selector()<CR>
 nnoremap <leader>gc :lua require('telescope').git_branches()<CR>
+
+"better syntax highlighting
+"lua <<EOF
+"require'nvim-treesitter.configs'.setup {
+"  highlight = {
+"    enable = true,
+"    custom_captures = {
+"      -- Highlight the @foo.bar capture group with the "Identifier" highlight group.
+"      ["foo.bar"] = "Identifier",
+"    },
+"  },
+"}
+"EOF
+
