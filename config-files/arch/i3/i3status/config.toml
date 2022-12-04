@@ -1,0 +1,43 @@
+icons_format = "{icon}"
+
+[theme]
+theme = "dracula"
+
+
+[icons]
+icons = "awesome6"
+
+[[block]]
+block = "battery"
+format = " $icon $percentage "
+full_format = " $icon   $percentage"
+empty_format = " $icon   $percentage"
+missing_format = ""
+
+[[block]]
+block = "backlight"
+minimum = 0
+invert_icons = true
+
+
+[[block]]
+block = "net"
+format = " $device ^icon_net_down $speed_down.eng(3,B,K) ^icon_net_up $speed_up.eng(3,B,K)"
+
+
+[[block]]
+block = "memory"
+interval = 20
+format = " $icon $mem_avail.eng(4,B)"
+format_alt = " $icon_swap $swap_used_percents.eng(2) "
+
+[[block]]
+block = "sound"
+[[block.click]]
+button = "left"
+cmd = "pavucontrol"
+
+[[block]]
+block = "time"
+interval = 10
+format = "%a %d/%m %R"

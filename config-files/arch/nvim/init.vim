@@ -3,7 +3,6 @@ set wildmode=longest,list,full
 set wildmenu
 set shell=/usr/bin/zsh
 " Ignore files
-set wildignore+=*.pyc
 set wildignore+=*_build/*
 set wildignore+=**/coverage/*
 set wildignore+=**/node_modules/*
@@ -15,9 +14,13 @@ call plug#begin()
 "themes
 Plug 'mhartington/oceanic-next'
 Plug 'sainnhe/everforest'
+Plug 'ntk148v/vim-horizon'
 Plug 'sainnhe/edge'
 Plug 'itchyny/lightline.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+"latex
+Plug 'lervag/vimtex'
 
 "telescope
 Plug 'nvim-lua/popup.nvim'
@@ -78,9 +81,22 @@ set colorcolumn=80
 " Give more space for displaying messages
 set cmdheight=2
 
-colorscheme edge 
+" colorscheme (theme)
+colorscheme horizon
+let g:lightline = {}
+let g:lightline.colorscheme = 'horizon'
+
 " Respect transparency
 hi Normal guibg=none ctermbg=none
+hi LineNr guibg=none ctermbg=none
+hi Folded guibg=none ctermbg=none
+hi NonText guibg=none ctermbg=none
+hi SpecialKey guibg=none ctermbg=none
+hi VertSplit guibg=none ctermbg=none
+hi SignColumn guibg=none ctermbg=none
+hi EndOfBuffer guibg=none ctermbg=none
+
+6
 " hi NonText guibg=NONE ctermbg=NONE
 
 
@@ -97,6 +113,7 @@ imap <c-w> <esc> <c-w>
 map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 map <leader>sr :source% <CR>
+map <leader>n :!node % <CR>
 map <leader>w <esc>ve
 map <leader>l <esc>VyPj
 map <leader>r <esc>:source ~/.config/nvim/init.vim <CR>

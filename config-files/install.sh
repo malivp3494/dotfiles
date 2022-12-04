@@ -29,10 +29,10 @@
 # ln -s $PWD/arch/i3 $HOME/.config/i3
 
 
-echo "Setting up picom..."
-mkdir -p $HOME/.config
-rm ~/.config/picom -rf
-ln -s $PWD/arch/picom $HOME/.config/picom
+# echo "Setting up picom..."
+# mkdir -p $HOME/.config
+# rm ~/.config/picom -rf
+# ln -s $PWD/arch/picom $HOME/.config/picom
 
 # echo "Setting up polybar..."
 # rm ~/.config/polybar -rf
@@ -42,7 +42,7 @@ ln -s $PWD/arch/picom $HOME/.config/picom
 # echo "Setting up nvim..."
 # rm ~/.config/nvim -rf
 # ln -s $PWD/arch/nvim $HOME/.config/nvim
-
+# 
 # echo "Setting up kitty..."
 # rm ~/.config/kitty -rf
 # ln -s $PWD/arch/kitty $HOME/.config/kitty
@@ -51,9 +51,9 @@ ln -s $PWD/arch/picom $HOME/.config/picom
 # rm ~/.Xmodmap
 # ln -s $PWD/arch/Xmodmap $HOME/.Xmodmap
 
-# echo "Configuring Redshift..."
-# rm ~/.config/redshift.conf
-# ln -s $PWD/REDSHIFT.CONF $HOME/.config/redshift.conf
+ echo "Configuring Redshift..."
+ rm ~/.config/redshift.conf
+ ln -s $PWD/REDSHIFT.CONF $HOME/.config/redshift.conf
 
 # echo "Configuring screenlayout..."
 # rm ~/.screenlayout

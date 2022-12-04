@@ -1,5 +1,5 @@
-PATH="$PATH:$HOME/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$HOME/.local/bin:$HOME/pro/scripts/bash:$HOME/pro/thirdparty/jdk/bin:$HOME/pro/thirdparty/flutter/bin"
-JAVA_HOME="/usr/lib/jvm/default/"
+export PATH="$PATH:$HOME/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$HOME/.local/bin:$HOME/pro/scripts/bash:$HOME/pro/thirdparty/jdk/bin:$HOME/pro/thirdparty/flutter/bin:/usr/local/go/bin:$HOME/.cargo/bin"
+export JAVA_HOME="/usr/lib/jvm/java-1.17.0-openjdk-amd64"
 export PROJECTS="$HOME/pro"
 export SCRIPTS="$PROJECTS/scripts"
 export USRLIB="$HOME/.usrlib"
@@ -10,4 +10,4 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-export PAGER="nvim -c 'set ft=man' -"
+export PAGER='nvim +Man!'
