@@ -1,5 +1,5 @@
-export PATH="$PATH:$HOME/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$HOME/.local/bin:$HOME/pro/scripts/bash:$HOME/pro/thirdparty/jdk/bin:$HOME/pro/thirdparty/flutter/bin:/usr/local/go/bin:$HOME/.cargo/bin"
-export JAVA_HOME="/usr/lib/jvm/java-1.17.0-openjdk-amd64"
+export PATH="$PATH:$HOME/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$HOME/.local/bin:$HOME/pro/scripts/bash:$HOME/pro/thirdparty/jdk/bin:$HOME/pro/thirdparty/flutter/bin:/usr/local/go/bin:$HOME/.cargo/bin:$HOME/pro/thirdparty/swift-5.7.3/usr/bin"
+export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
 export PROJECTS="$HOME/pro"
 export SCRIPTS="$PROJECTS/scripts"
 export USRLIB="$HOME/.usrlib"

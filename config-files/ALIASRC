@@ -57,7 +57,7 @@ alias nf="clear && cat ~/neo"
 alias dif="kitty +kitten diff"
 alias rm="rm -v"
 alias ds="bash ~/.screenlayout/launch.sh"
-alias myip="curl https://ipinfo.io/ip && echo ''"
+alias myip="dig -t txt o-o.myaddr.l.google.com @ns1.google.com +short"
 alias solved="python3 ~/pro/cp/solved/solved.py"
 # pepehands
 # related to competitive programming

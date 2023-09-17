@@ -113,7 +113,7 @@ imap <c-w> <esc> <c-w>
 map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 map <leader>sr :source% <CR>
-map <leader>n :!node % <CR>
+map <leader>n :!./run.sh <CR>
 map <leader>w <esc>ve
 map <leader>l <esc>VyPj
 map <leader>r <esc>:source ~/.config/nvim/init.vim <CR>
