@@ -34,11 +34,6 @@
 # rm ~/.config/picom -rf
 # ln -s $PWD/arch/picom $HOME/.config/picom
 
-# echo "Setting up polybar..."
-# rm ~/.config/polybar -rf
-# ln -s $PWD/arch/polybar $HOME/.config/polybar
-
-
 # echo "Setting up nvim..."
 # rm ~/.config/nvim -rf
 # ln -s $PWD/arch/nvim $HOME/.config/nvim
@@ -51,10 +46,14 @@
 # rm ~/.Xmodmap
 # ln -s $PWD/arch/Xmodmap $HOME/.Xmodmap
 
- echo "Configuring Redshift..."
- rm ~/.config/redshift.conf
- ln -s $PWD/REDSHIFT.CONF $HOME/.config/redshift.conf
+# echo "Configuring Redshift..."
+# rm ~/.config/redshift.conf
+# ln -s $PWD/REDSHIFT.CONF $HOME/.config/redshift.conf
 
 # echo "Configuring screenlayout..."
 # rm ~/.screenlayout
 # ln -s $PWD/arch/screenlayout $HOME/.screenlayout
+
+# echo "Configuring fonts..."
+# rm ~/.config/fontconfig -rf
+# ln -s $PWD/arch/fontconfig $HOME/.config/fontconfig
