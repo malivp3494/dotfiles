@@ -70,3 +70,5 @@ alias ff="source ~/.config/i3/change-bg.sh"
 
 # set time correctly, in Ubuntu, NTP wasn't working well
 alias up-date="sudo date -s \"$(wget -qSO- --max-redirect=0 google.co.in 2>&1 | grep Date: | cut -d' ' -f5-8)Z\""
+alias vas="nvim -c 'autocmd TextChanged,TextChangedI * silent write'"
+alias todo="vas ~/.todo.md"
