@@ -9,30 +9,36 @@ icons = "awesome6"
 
 [[block]]
 block = "battery"
-format = " $icon $percentage "
+format = " $icon $percentage"
 full_format = " $icon   $percentage"
 empty_format = " $icon   $percentage"
-missing_format = ""
+missing_format = "$icon"
 
 [[block]]
 block = "backlight"
 minimum = 0
 invert_icons = true
 
+[[block.click]]
+button = "left"
+action = "play_pause"
+
+
 
 [[block]]
 block = "net"
-format = " $device ^icon_net_down $speed_down.eng(3,B,K) ^icon_net_up $speed_up.eng(3,B,K)"
+format = " $device ^icon_net_down $speed_down.eng(w:3,p:K, hide_unit:true) ^icon_net_up $speed_up.eng(w:3,p:K, hide_unit:true)"
 
 
 [[block]]
 block = "memory"
 interval = 20
-format = " $icon $mem_avail.eng(4,B)"
-format_alt = " $icon_swap $swap_used_percents.eng(2) "
+format = " $icon $mem_avail.eng(w:4) Free"
+format_alt = " $icon_swap $swap_used_percents.eng(w:2) "
 
 [[block]]
 block = "sound"
+format = "$icon"
 [[block.click]]
 button = "left"
 cmd = "pavucontrol"
@@ -40,4 +46,5 @@ cmd = "pavucontrol"
 [[block]]
 block = "time"
 interval = 10
-format = "%a %d/%m %R"
+format = "$timestamp.datetime(f:'%a %d/%m %R', l:en_IN)"
+
